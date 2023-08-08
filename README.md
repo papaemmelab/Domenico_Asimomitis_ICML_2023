@@ -24,9 +24,9 @@ To clone this repository on your local computer please run:
 $ git clone https://github.com/papaemmelab/Domenico_Asimomitis_ICML_2023
 ```
 
-### Run notebook
+### Run notebooks
 
-To run the notebook please first install jupyter [here](https://jupyter.org/). For the python environment necessary to be installed please use:
+To run the notebooks please first install jupyter [here](https://jupyter.org/). For the python environment necessary to be installed please use:
 
 -
 
