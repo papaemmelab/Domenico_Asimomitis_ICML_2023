@@ -7,8 +7,8 @@ https://icml-compbio.github.io/2023/papers/WCBICML2023_paper116.pdf
 The repository contains the following directories:
 ```
 └─ notebooks/: folder containing the jupyter notebooks with code to:
-  | build/train the model (Model.ipynb)
-  |generate the output and interpretability maps (Output.ipynb)
+|   └─ build/train the model (Model.ipynb)
+|   └─ generate the output and interpretability maps (Output.ipynb)
 └─ data/: folder containing two test cases
 └─ output/: folder containing the output of the notebooks for the two test cases of the data folder
 └─ model/: folder containing the trained pytorch model
