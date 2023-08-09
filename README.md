@@ -28,7 +28,9 @@ $ git clone https://github.com/papaemmelab/Domenico_Asimomitis_ICML_2023
 
 To run the notebooks please first install jupyter [here](https://jupyter.org/). For the python environment necessary to be installed please use:
 
--
+```
+pip install -r requirements.txt
+```
 
 ## :email: Contact ##
 
