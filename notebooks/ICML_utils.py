@@ -7,9 +7,21 @@ from Model_class import MyGradCAM
 import matplotlib.pyplot as plt
 import torchvision.transforms as T
 
+
+def save_tensor_as_png(tens3d, filename):
+    """Save a 3d pytorch tensor as jpg
+    Args:
+        tens3d (torch.Tensor): 3d tensor (#channels, H, W)
+        filename (string): full path of the image file
+    Returns:
+        Nothing
+    """
+    transform = T.ToPILImage()
+    img = transform(tens3d)
+    img.save(filename)
+
     
 def read_png_as_tensor(filename, height, width):
-    
     """Read a jpg and convert it to a normalized 4d tensor (1, #channels, H, W)
     Args:
         filename (string): full path of the image file
