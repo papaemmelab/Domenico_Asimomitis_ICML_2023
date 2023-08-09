@@ -1,0 +1,41 @@
+{
+    "classifiers": [
+      "Intended Audience :: Developers",
+      "Intended Audience :: Science/Research",
+      "License :: OSI Approved :: MIT License",
+      "Natural Language :: English",
+      "Programming Language :: Python :: 3 :: Only"
+    ],
+    "setup_requires": ["pytest-runner==2.11.1"],
+    "install_requires": [
+      "docker==2.5.1",
+      "ipykernel>=5.1.0",
+      "ipython>=7.3.0",
+      "jupyter>=1.0.0",
+      "jupyter-client>=5.2.4",
+      "jupyterlab>=3.0.0",
+      "matplotlib==3.0.3",
+      "nbconvert>=5.4.1",
+      "nbformat>=4.4.0",
+      "nbparameterise>=0.3",
+      "numpy>=1.16.3",
+      "opencv-python==4.5.3.56",
+      "pandas==0.24.2",
+      "protobuf==3.9.2",
+      "scikit-learn>=0.20.3",
+      "seaborn==0.10.1",
+      "tensorflow==2.4.1",
+      "timm==0.6.12",
+      "torch==1.10.1",
+      "torchvision==0.11.2"
+    ],
+    "author": "Dylan Domenico, Georgios Asimomitis",
+    "keywords": [],
+    "license": "BSD",
+    "name": "Domenico_Asimomitis_ICML_2023",
+    "test_suite": "tests",
+    "long_description": "📘 learn more on `GitHub <https://github.com/papaemmelab/Domenico_Asimomitis_ICML_2023>`_!",
+    "description": "",
+    "url": "https://github.com/papaemmelab/Domenico_Asimomitis_ICML_2023"
+  }
+
